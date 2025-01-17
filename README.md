@@ -1,5 +1,9 @@
 # CircleProgressKit
 
+![GitHub repo size](https://img.shields.io/github/repo-size/jaydeep-godhani/CircleProgressKit)
+![GitHub stars](https://img.shields.io/github/stars/jaydeep-godhani/CircleProgressKit?style=social)
+![GitHub forks](https://img.shields.io/github/forks/jaydeep-godhani/CircleProgressKit?style=social)
+
 `CircleProgressKit` is a customizable circular progress view for iOS, allowing easy visualization of progress with an optional central image. This library is implemented as a Swift file, ready to integrate directly into your project.
 
 ## Features
