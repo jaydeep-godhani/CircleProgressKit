@@ -90,7 +90,8 @@ open class CircleProgressView: UIView {
     open var completeDuration: Double = 1.0
     private var progressShapes: [CAShapeLayer]!
     
-    // MARK: - Init -
+    // MARK: - Init
+    
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
@@ -116,7 +117,8 @@ open class CircleProgressView: UIView {
         self.progressImageView.image = self.image
     }
     
-    // MARK: - Progress Animation -
+    // MARK: - Progress Animation
+    
     private func addProgressShapes() {
         for subLayer in self.layer.sublayers ?? [] {
             if subLayer is CAShapeLayer {
@@ -196,7 +198,8 @@ open class CircleProgressView: UIView {
         self.progress = progress
     }
     
-    // MARK: - Layout -
+    // MARK: - Layout
+    
     open override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -223,7 +226,8 @@ open class CircleProgressView: UIView {
         self.transformShapes(CATransform3DMakeRotation( CGFloat.pi, 0, 0, 1.0))
     }
     
-    // MARK: - Helper -
+    // MARK: - Helper
+    
     private func rectForShape() -> CGRect {
         return bounds.insetBy(dx: lineWidth / 2.0, dy: lineWidth / 2.0)
     }
