@@ -6,6 +6,22 @@
 
 `CircleProgressKit` is a customizable circular progress view for iOS, allowing easy visualization of progress with an optional central image. This library is implemented as a Swift file, ready to integrate directly into your project.
 
+<table>
+  <tr>
+    <td><img src="Images/Screenshot - 1.png" width=270></td>
+    <td><img src="Images/Screenshot - 2.png" width=270></td>
+    <td><img src="Images/Screenshot - 3.png" width=270></td>
+  </tr>
+</table>
+ 
+<table>
+  <tr>
+    <td><img src="Images/Screenshot - 4.png" width=270></td>
+    <td><img src="Images/Screenshot - 5.png" width=270></td>
+    <td><img src="Images/Screenshot - 6.png" width=270></td>
+  </tr>
+</table>
+
 ## Features
 
 - Circular progress visualization with adjustable colors and line width.
